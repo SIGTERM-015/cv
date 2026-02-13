@@ -3,8 +3,8 @@ import type { ResumeData } from "@/lib/types";
 export const RESUME_DATA: ResumeData = {
   name: "Nerea Kalandadze",
   initials: "NK",
-  location: "Seville, Spain, CET",
-  locationLink: "https://www.google.com/maps/place/Seville",
+  location: "Barcelona, Spain, CET",
+  locationLink: "https://www.google.com/maps/place/barcelona",
   about: "SecDevOps, SRE Engineer and Pentester",
   summary: (
     <>
