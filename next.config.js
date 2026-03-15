@@ -31,8 +31,8 @@ const nextConfig = {
             value: 'nosniff'
           },
           {
-            key: 'X-Frame-Options',
-            value: 'SAMEORIGIN'
+            key: 'Content-Security-Policy',
+            value: "frame-ancestors 'self' https://sigterm.vodka https://*.sigterm.vodka"
           },
           {
             key: 'X-XSS-Protection',
