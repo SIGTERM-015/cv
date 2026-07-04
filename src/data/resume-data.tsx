@@ -109,73 +109,33 @@ export const RESUME_DATA: ResumeData = {
       ),
     },
     {
-      company: "Typsa",
-      link: "https://www.typsa.com/",
-      badges: ["DevOps", "Onprem to Cloud", "CI/CD", "AD", "Security", "GCP"],
-      title: "Fullstack Developer and DevOps",
-      start: "2022",
-      end: "2022",
-      description: (
-        <>
-          <ul className="list-inside list-disc">
-            <li>
-              I migrated an old on premise set of microservice to GCP improving
-              security and reliability of the services. Creating development,
-              preview and production environments and improved the code delivery
-              process, reducing code issues and downtime
-            </li>
-            <li>
-              I developed a CICD pipeline using Jenkins, so developers could
-              deploy new versions of the services.
-            </li>
-            <li>
-              I reworked and secured the company Active Directory and solved the
-              present security issues.
-            </li>
-            <li>
-              I developed a IAM, onboarding and developer access management
-              system to make permission management easier and more secure, and
-              dispositions of accounts for new employees.
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "GIGAS Hosting",
-      link: "https://gigas.com/",
+      company: "KaveTech",
+      link: "https://kavehome.com/",
       badges: [
-        "Sysadmin",
-        "Linux",
-        "KVM",
-        "Qemu",
-        "Virtualization",
-        "Windows",
-        "Linux",
+        "Remote",
+        "IAC",
+        "Kubernetes",
+        "Terraform",
+        "Python",
         "Security",
-        "Own Cloud",
+        "GCP",
+        "On Premise",
       ],
-      title: "LV2 Support and Sysadmin",
-      start: "2022",
-      end: "2023",
+      title: "DevSecOps Engineer and Cibersecurity analyst",
+      start: "2025",
+      end: "2026",
       description: (
         <>
           <ul className="list-inside list-disc">
             <li>
-              Offered advanced support for clients that were hired products and
-              virtual machines that ran on KVM and Qemu. I helped them deploy
-              software to the virtual machines like databases, ORM, CMS, and
-              also helped them manage and maintain those products.
+              Lead in the adoption of IAC tools like Terraform to deploy and
+              manage the company's infrastructure.
             </li>
             <li>
-              Improved the process and the software used for the virtual
-              machines' orchestration, managing and disposition, reducing
-              downtime and improving its performance
+              Lead the efforts to improve the security of the company's
+              infrastructure, on premise servers, office security, etc.
             </li>
-            <li>
-              Improved security in internal software used for daily internal
-              tasks like accounting and VM and infrastructure management
-            </li>
+            <li>Maintain and improve the company's Kubernetes Clusters.</li>
           </ul>
         </>
       ),
@@ -223,33 +183,73 @@ export const RESUME_DATA: ResumeData = {
       ),
     },
     {
-      company: "KaveTech",
-      link: "https://kavehome.com/",
+      company: "GIGAS Hosting",
+      link: "https://gigas.com/",
       badges: [
-        "Remote",
-        "IAC",
-        "Kubernetes",
-        "Terraform",
-        "Python",
+        "Sysadmin",
+        "Linux",
+        "KVM",
+        "Qemu",
+        "Virtualization",
+        "Windows",
+        "Linux",
         "Security",
-        "GCP",
-        "On Premise",
+        "Own Cloud",
       ],
-      title: "DevSecOps Engineer and Cibersecurity analyst",
-      start: "2025",
-      end: "2026",
+      title: "LV2 Support and Sysadmin",
+      start: "2022",
+      end: "2023",
       description: (
         <>
           <ul className="list-inside list-disc">
             <li>
-              Lead in the adoption of IAC tools like Terraform to deploy and
-              manage the company's infrastructure.
+              Offered advanced support for clients that were hired products and
+              virtual machines that ran on KVM and Qemu. I helped them deploy
+              software to the virtual machines like databases, ORM, CMS, and
+              also helped them manage and maintain those products.
             </li>
             <li>
-              Lead the efforts to improve the security of the company's
-              infrastructure, on premise servers, office security, etc.
+              Improved the process and the software used for the virtual
+              machines' orchestration, managing and disposition, reducing
+              downtime and improving its performance
             </li>
-            <li>Maintain and improve the company's Kubernetes Clusters.</li>
+            <li>
+              Improved security in internal software used for daily internal
+              tasks like accounting and VM and infrastructure management
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Typsa",
+      link: "https://www.typsa.com/",
+      badges: ["DevOps", "Onprem to Cloud", "CI/CD", "AD", "Security", "GCP"],
+      title: "Fullstack Developer and DevOps",
+      start: "2022",
+      end: "2022",
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+              I migrated an old on premise set of microservice to GCP improving
+              security and reliability of the services. Creating development,
+              preview and production environments and improved the code delivery
+              process, reducing code issues and downtime
+            </li>
+            <li>
+              I developed a CICD pipeline using Jenkins, so developers could
+              deploy new versions of the services.
+            </li>
+            <li>
+              I reworked and secured the company Active Directory and solved the
+              present security issues.
+            </li>
+            <li>
+              I developed a IAM, onboarding and developer access management
+              system to make permission management easier and more secure, and
+              dispositions of accounts for new employees.
+            </li>
           </ul>
         </>
       ),
