@@ -2,6 +2,9 @@
   "name": "web-cv",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22.23.4"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,38 +21,44 @@
     "check:fix": "biome check --write ./src"
   },
   "dependencies": {
-    "@apollo/server": "^4.10.2",
-    "@as-integrations/next": "^3.0.0",
+    "@apollo/server": "^5.5.1",
+    "@as-integrations/next": "^4.1.0",
     "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-slot": "^1.0.2",
-    "@vercel/analytics": "^1.1.2",
-    "class-validator": "^0.14.1",
+    "@vercel/analytics": "^2.0.1",
+    "class-validator": "^0.14.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "cmdk": "^0.2.0",
-    "graphql": "^16.8.1",
-    "graphql-scalars": "^1.23.0",
+    "graphql": "^16.14.2",
+    "graphql-scalars": "^1.26.0",
     "lucide-react": "^0.300.0",
-    "next": "14.2.1",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "reflect-metadata": "^0.2.2",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7",
-    "type-graphql": "^2.0.0-beta.6",
+    "type-graphql": "2.0.0-rc.3",
     "vaul": "^0.8.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.6",
-    "@opennextjs/cloudflare": "^1.8.4",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.0",
+    "@opennextjs/cloudflare": "^1.20.13",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^3.4.19",
     "typescript": "^5",
-    "wrangler": "^4.38.0"
+    "wrangler": "^4.151.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "sha.js": "^2.4.12",
+      "source-map-js": "^1.2.2"
+    }
   }
 }
